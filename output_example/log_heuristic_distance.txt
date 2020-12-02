@@ -1,0 +1,75 @@
+Step: 1
+      action: None
+      current_state: [1, 7, 4]
+                   : [6, 0, 3]
+                   : [8, 5, 2]
+Step: 2
+      action: R
+      current_state: [1, 7, 4]
+                   : [6, 3, 0]
+                   : [8, 5, 2]
+Step: 3
+      action: D
+      current_state: [1, 7, 4]
+                   : [6, 3, 2]
+                   : [8, 5, 0]
+Step: 4
+      action: L
+      current_state: [1, 7, 4]
+                   : [6, 3, 2]
+                   : [8, 0, 5]
+Step: 5
+      action: L
+      current_state: [1, 7, 4]
+                   : [6, 3, 2]
+                   : [0, 8, 5]
+Step: 6
+      action: U
+      current_state: [1, 7, 4]
+                   : [0, 3, 2]
+                   : [6, 8, 5]
+Step: 7
+      action: R
+      current_state: [1, 7, 4]
+                   : [3, 0, 2]
+                   : [6, 8, 5]
+Step: 8
+      action: U
+      current_state: [1, 0, 4]
+                   : [3, 7, 2]
+                   : [6, 8, 5]
+Step: 9
+      action: R
+      current_state: [1, 4, 0]
+                   : [3, 7, 2]
+                   : [6, 8, 5]
+Step: 10
+      action: D
+      current_state: [1, 4, 2]
+                   : [3, 7, 0]
+                   : [6, 8, 5]
+Step: 11
+      action: D
+      current_state: [1, 4, 2]
+                   : [3, 7, 5]
+                   : [6, 8, 0]
+Step: 12
+      action: L
+      current_state: [1, 4, 2]
+                   : [3, 7, 5]
+                   : [6, 0, 8]
+Step: 13
+      action: U
+      current_state: [1, 4, 2]
+                   : [3, 0, 5]
+                   : [6, 7, 8]
+Step: 14
+      action: U
+      current_state: [1, 0, 2]
+                   : [3, 4, 5]
+                   : [6, 7, 8]
+Step: 15
+      action: L
+      current_state: [0, 1, 2]
+                   : [3, 4, 5]
+                   : [6, 7, 8]
